@@ -1,0 +1,55 @@
+
+body{
+    background-color: lightblue;
+    color: white;
+    
+}
+
+
+.center{
+
+    padding: 10px;
+   margin: 10%;
+   align-items: center;
+    text-align: center;
+    background-color: navy;
+    width: 60%;
+    height: 100%;
+    border-radius: 20px;
+    
+}
+
+.h1{
+    margin-right: 5px;
+}
+#todo-item{
+    
+    text-align: center;
+    width: 500px;
+    height: 30px;
+    
+}
+.list{
+    text-align: center;
+    font-size: larger;
+}
+.btn{
+    
+    height: 30px;
+    margin: 0px;
+    background-color: orangered;
+    color: white;
+}
+.abtn{
+    height: 30px;
+    margin: 7px;
+    background-color: yellow;
+    color: black;
+}
+
+
+@media screen and(max-width:900px){
+   .center{
+       width: 800px;
+   }
+}
